@@ -43,3 +43,18 @@ Parts unlimited has already been cloned on your development virtual machine. To 
   ![Accept to add missing packages](./media/AcceptToAddMissingPackages.JPG)
 + Hit `F5` again and you'll be promoted to select the environment, select `dotnetcore`. You might be prompted to auto create a `launch.json` file if it doesn't already exist. If all goes well, you should see the `Parts Unlimited` website launch in debug mode...
   ![Parts Unlimited Debug](./media/PartsUnlimitedDotNetCoreDebug.JPG)
+
+# Run PartsUnlimited with Visual Studio 2017
+Parts unlimited has already been cloned on your development virtual machine. To run it with Visual Studio 2017 follow the instructions below...
++ Open explorer and navigate to `C:\DevOpsTTT\source\repos\PartsUnlimited` and open `PartsUnlimited.sln` in visual studio 2017. Sign in to Visual Studio 2017 if you are launching it for the first time. 
+ ![Vs2017 first launch](./media/Vs2017FirstLaunch.JPG)
++ Once loaded in Visual Studio, click the solution to `Rebuild All`
+ ![Vs2017 Rebuild All](./media/Vs2017RebuildAll.JPG)
++ Once the Rebuild succeeds, you should see the status update on the VS2017 toolbar and output console 
+ ![VS2017 Rebuild Successful](./media/Vs2017PartsUnlimitedRebuildSuccessful.JPG)
++ Hit `F5` to run the parts unlimited website 
+ ![Debug Parts Unlimited in VS 2017](./media/Vs2017DebugPartsUnlimited.JPG)
+
+ # Summary 
+ You should at this point be able to successfully debug the Parts Unlimited solution that uses dot net core 2.0 on your development virtual machine in both Visual Studio Code and Visual Studio 2017. If you have any issues with the setup contact [@arora_tarun](https://twitter.com/arora_tarun). Like DevOps, check out [http://www.visualstudiogeeks.com/](http://www.visualstudiogeeks.com/) #DevOpsOn 
+
