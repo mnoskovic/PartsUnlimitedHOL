@@ -3,7 +3,7 @@ Setup Parts Unlimited codebase in git in Team Services.
 
 # Pre-Requisites
 Prior to setting up Parts Unlimited in git, ensure you have completed the following steps, 
-+ Validate Parts Unlimited works locally on your developer machine [HOL](../01_HOL_PartsUnlimited_PreReq-WorkingEnvironment/README.MD)
++ Validate Parts Unlimited works locally on your developer machine [HOL](https://github.com/tarunaroraonline/PartsUnlimitedHOL/blob/master/docs/01_HOL_PartsUnlimited_PreReq-WorkingEnvironment/README.md)
 + You have an active instance of Visual Studio Team Services [Sign Up for Free Account](https://www.visualstudio.com/team-services/)
 
 # Importing PartsUnlimited into git in Team Services
@@ -19,7 +19,7 @@ Visual Studio Team Services now has git import functionality that allows you to 
   > To import Parts Unlimited specify the source as **[https://github.com/tarunaroraonline/PartsUnlimitedHOL](https://github.com/tarunaroraonline/PartsUnlimitedHOL)**  
 
   ![Team Services Import Git Dialogue](./media/TeamServicesImportGitDialogue.JPG)
-  
+
 + The import process is fairly quick, it can take a minute or so to complete... 
 
   ![Import Team Services Processing](./media/TeamServicesImportGitProcessing.JPG)
