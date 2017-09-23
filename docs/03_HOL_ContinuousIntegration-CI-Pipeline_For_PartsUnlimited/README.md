@@ -35,8 +35,6 @@ Visual Studio Team Services now has git import functionality that allows you to 
   
   ![Project to build](./media/ProjectsToBeBuildTeamServices.JPG) 
 
-  ![Import Team Services Processing](./media/TeamServicesImportGitProcessing.JPG)
-
 + The build is defaulted to the branch that you had open in the code hub, in this case it's the `master` branch. 
 
   ![Build Master Branch](./media/PartsUnlimitedMasterBranch.JPG)
