@@ -11,14 +11,17 @@ Visual Studio Team Services now has git import functionality that allows you to 
 +  Launch your Visual Studio Team Services instance in a Browser and create a new project called Parts Unlimited. Select the defaults when creating the new team project. 
    ![Create New Project In Team Services](./media/CreateNewProjectInTeamServices.JPG)
 + Navigate to the Code Hub and choose import repository. 
-   ![Import Repository](./media/ContextMenuImportRepository.JPG) 
+  ![Import Repository](./media/ContextMenuImportRepository.JPG) 
 + Fill out the details of the repository you intend to import and the name for the repository in Team Services. 
+
   > To import Parts Unlimited specify the source as **[https://github.com/tarunaroraonline/PartsUnlimitedHOL](https://github.com/tarunaroraonline/PartsUnlimitedHOL)**  
 
-   ![Team Services Import Git Dialogue](./media/TeamServicesImportGitDialogue.JPG)
+  ![Team Services Import Git Dialogue](./media/TeamServicesImportGitDialogue.JPG)
 + The import process is fairly quick, it can take a minute or so to complete... 
-   ![Import Team Services Processing](./media/TeamServicesImportGitProcessing.JPG)
+
+  ![Import Team Services Processing](./media/TeamServicesImportGitProcessing.JPG)
 + Import brings across all branches and the entire history of the repository along with it...
+
    ![Git Import is Successful](./media/GitImportIsSuccessful.JPG)
 
 > ### Congratulations! You now have parts unlimited set up in your very own Team Services git repository... ![](https://media.giphy.com/media/YTbZzCkRQCEJa/giphy.gif)
