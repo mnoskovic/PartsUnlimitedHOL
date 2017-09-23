@@ -1,7 +1,7 @@
 # Goal
 Setup Parts Unlimited codebase in git in Team Services.
 
-# Pre-Req
+# Pre-Requisites
 Prior to setting up Parts Unlimited in git, ensure you have completed the following steps, 
 + Validate Parts Unlimited works locally on your developer machine [HOL](../01_HOL_PartsUnlimited_PreReq-WorkingEnvironment/README.MD)
 + You have an active instance of Visual Studio Team Services [Sign Up for Free Account](https://www.visualstudio.com/team-services/)

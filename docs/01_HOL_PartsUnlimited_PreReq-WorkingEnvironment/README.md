@@ -1,7 +1,7 @@
 # Goal
 Set up the development environment for the DevOps training course...
 
-# Background
+# Pre-Requisites
 An Azure Dev Test Lab VM has been set up for you, log into this VM using the credentials shared with you. This VM is pre set up with the following software;
 - Visual Studio 2017 Update 3
 - dotNetCore 2.0
