@@ -5,7 +5,7 @@ Leverage Team Build in Team Services to set up an automated Continuous Integrati
 It is recommended that you complete the previous hands on labs prior to setting up a CI pipeline for parts unlimited website.  
 + Validate Parts Unlimited works locally on your developer machine [HOL 1](https://github.com/tarunaroraonline/PartsUnlimitedHOL/blob/master/docs/01_HOL_PartsUnlimited_PreReq-WorkingEnvironment/README.md)
 + You have an active instance of Visual Studio Team Services [Sign Up for Free Account](https://www.visualstudio.com/team-services/)
-+ Import Parts Unlimited from GitHub into git in Team Services [HOL 2]()https://github.com/tarunaroraonline/PartsUnlimitedHOL/blob/master/docs/02_HOL_Setup_PartsUnlimited_In_TeamServices/README.md
++ Import Parts Unlimited from GitHub into git in Team Services [HOL 2](https://github.com/tarunaroraonline/PartsUnlimitedHOL/blob/master/docs/02_HOL_Setup_PartsUnlimited_In_TeamServices/README.md)
 
 # Setting up a CI pipeline for Parts Unlimited using Team Build
 Visual Studio Team Services now has git import functionality that allows you to import any git repository that exposes a public endpoint directly into Team Services. We'll leverage this functionality to directly import the Parts Unlimited repository from GitHub into Team Services. 
