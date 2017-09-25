@@ -8,6 +8,8 @@
     <PackageId>PartsUnlimitedWebsite</PackageId>
     <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
     <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;dnxcore50;portable-net45+win8</PackageTargetFallback>
+    <ApplicationInsightsResourceId>/subscriptions/47187c83-09b8-4dde-b47d-c1f82ba04389/resourcegroups/PartsUnlimitedWebsite-1/providers/microsoft.insights/components/PartsUnlimitedWebsite-AppInsights-001</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/47187c83-09b8-4dde-b47d-c1f82ba04389/resourceGroups/DevOps-TTT-AppService-001/providers/microsoft.insights/components/parts-unlimited</ApplicationInsightsAnnotationResourceId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -25,6 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="1.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="1.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="1.0.2" />
@@ -56,7 +59,6 @@
     <PackageReference Include="Microsoft.Extensions.WebEncoders.Core" Version="1.0.0-rc1-final" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OAuth" Version="1.0.2" />
     <PackageReference Include="Microsoft.Extensions.DiagnosticAdapter" Version="1.0.2" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="1.0.3" />
@@ -83,6 +85,10 @@
     <Content Update="config.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 
 </Project>
