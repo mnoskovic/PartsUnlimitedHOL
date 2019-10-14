@@ -16,7 +16,7 @@ Visual Studio Team Services now has git import functionality that allows you to 
   ![Import Repository](./media/ContextMenuImportRepository.JPG) 
 + Fill out the details of the repository you intend to import and the name for the repository in Team Services. 
 
-  > To import Parts Unlimited specify the source as **[https://github.com/tarunaroraonline/PartsUnlimitedHOL](https://github.com/tarunaroraonline/PartsUnlimitedHOL)**  
+  > To import Parts Unlimited specify the source as **[https://github.com/mnoskovic/PartsUnlimitedHOL](https://github.com/mnoskovic/PartsUnlimitedHOL)**  
 
   ![Team Services Import Git Dialogue](./media/TeamServicesImportGitDialogue.JPG)
 
